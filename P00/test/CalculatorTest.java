@@ -40,16 +40,15 @@ public class CalculatorTest {
 		int expected = 9999;
 		assertEquals(actual, expected);
 	}
-	
 	@Test
 	public void testSubtract() {
-		int a = 9876;
-		int b = 4321;
+		int a = 2222;
+		int b = 1111;
 		
 		Calculator cal = new Calculator();
 		int actual = cal.subtract(a, b);
 		
-		int expected = 5555;
+		int expected = 1111;
 		assertEquals(actual, expected);
 	}
 }
