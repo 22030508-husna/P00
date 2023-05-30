@@ -13,9 +13,4 @@ public class Calculator {
 		return 0;
 	}
 
-	public int divide(int a, int b) {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
 }
